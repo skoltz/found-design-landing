@@ -195,9 +195,15 @@ body {
 #num6 {
 	background-color: #93A4B0;
 	height: 100%;
-	width: 100%;
-	position: inherit;
-	text-align: center;
+}
+#page6-image {
+	width:100%;
+	position: absolute;
+	z-index: 5;
+    -webkit-transform: rotate(-.2deg);  
+    -ms-transform: rotate(-.2deg);      
+    transform: rotate(-.2deg);
+    border: solid white 1px;		
 }
 
 

@@ -24,8 +24,52 @@ body {
 	position: absolute; 
 	top:0; bottom:0; right:0; left:0; 
 	height: 100%;
+}
+
+.row {
+	background-color: transparent;
+	position: absolute; 
+	top:0; bottom:0; right:0; left:0; 
+	height: 100%;
+}
+
+#tabbing {
+	right: 0;
+    width: 10%;
+    position: absolute;
+    top: 0;
+  	background-color: transparent;
+}
+.tabs {
+	background-color: transparent;
+	color: white;
+}
+.tabs .tab {
+	min-width: 0;
+}
+.tabs .tab a {
+	color: black;
+}
+.tabs .indicator {
+	background-color: black;
+}
+
+/*page 1*/
+#num1 {
+	height: 100vh;
+	background: url('assets/file-page1.jpg') center center no-repeat;
+	/*text-align: center;*/
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+/*page 2*/
+#num2 {
 	background-color: #95A3B0;
 }
+
 
 .found {
 	font-family: 'foglihtenNo07calt';

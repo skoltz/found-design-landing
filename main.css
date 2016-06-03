@@ -1,0 +1,42 @@
+@font-face {
+    font-family: 'foglihtenNo07calt';
+    src: url('assets/FoglihtenNo07calt.otf') format("opentype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ponsi_rounded_slabregular';
+    src: url('assets/PonsRoundedSlab-Regular-webfont.eot');
+    src: url('assets/PonsRoundedSlab-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('assets/PonsRoundedSlab-Regular-webfont.woff2') format('woff2'),
+         url('assets/PonsRoundedSlab-Regular-webfont.woff') format('woff'),
+         url('assets/PonsRoundedSlab-Regular-webfont.ttf') format('truetype'),
+         url('assets/PonsRoundedSlab-Regular-webfont.svg#ponsi_rounded_slabregular') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
+html { 
+	height: 100%; 
+}
+body { 
+	position: absolute; 
+	top:0; bottom:0; right:0; left:0; 
+	height: 100%;
+	background-color: #97A4AE;
+}
+
+.found {
+	font-family: 'foglihtenNo07calt';
+	color: white;
+}
+
+.main-text {
+	font-family: 'ponsi_rounded_slabregular';
+	color: white;
+}
+
+#main-card {
+	/*height: 100%;*/
+}

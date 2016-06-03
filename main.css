@@ -27,7 +27,7 @@ body {
 }
 
 #main-page {
-	background-color: transparent;
+	background-color: #FCFCFC;
 	position: absolute; 
 	top:0; bottom:0; right:0; left:0; 
 	height: 100%;
@@ -58,12 +58,70 @@ body {
 /*page 1*/
 #num1 {
 	height: 100%;
-	background: url('assets/file-page1.jpg') center center no-repeat;
-	/*text-align: center;*/
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
+	background-color: #FCFCFC;
+	/*background: url('assets/file-page1.jpg') center center no-repeat;*/
+	/*-webkit-background-size: cover;*/
+	/*-moz-background-size: cover;*/
+	/*-o-background-size: cover;*/
+	/*background-size: cover;*/
+}
+#instagram {
+    position: absolute;
+    width: 40px;
+    padding-top: 10px;
+    padding-left: 10px;	
+}
+#title {
+	font-weight: 800;
+	text-align: center;
+}
+#found-big {
+    width: 75%;
+    /* text-align: center; */
+    padding-top: 3%;
+    margin: auto;
+    display: block;
+}
+#address {
+    margin: auto;
+    color: #2b2b2b;
+    text-align: center;
+    margin-top: -2%;
+}
+
+.image-container {
+	width: 50%;
+	margin: auto;
+	position: relative;
+
+}
+#page1-image {
+	width:100%;
+	position: absolute;
+	z-index: 5;
+    -webkit-transform: rotate(-.2deg);  
+    -ms-transform: rotate(-.2deg);      
+    transform: rotate(-.2deg);		
+}
+#page1-square {
+	position: absolute;
+	width: 100%;
+	z-index: 4;
+	margin-top: 11%;
+	margin-left: 16%;
+    -webkit-transform: rotate(4deg);  
+    -ms-transform: rotate(4deg);      
+    transform: rotate(4deg);
+}
+#page1-square2 {
+	position: absolute;
+	width: 100%;
+	z-index: 3;	
+	margin-top: 21%;
+	margin-left: 8%;
+    -webkit-transform: rotate(-3deg);  
+    -ms-transform: rotate(-3deg);      
+    transform: rotate(-3deg);	
 }
 
 /*page 2*/
@@ -84,12 +142,10 @@ body {
 	font-family: 'foglihtenNo07calt';
 }
 #found-design-main {
-	overflow: hidden;
 	color: white;
 	font-size; 8rem;
 }
 #est-span {
-	overflow: hidden;
 	width: 40%;
 	margin: auto;
 }
@@ -106,7 +162,6 @@ body {
 	padding:0 10px; 
 }
 #timeless {
-	overflow: hidden;
 }
 .main-text {
 	font-family: 'ponsi_rounded_slabregular';
@@ -119,6 +174,20 @@ body {
 	height: 100%;
 	background: url('assets/largeLogo.jpg') center center no-repeat;
 	/*text-align: center;*/
+}
+
+
+/*page 4*/
+#num4 {
+	background-color: #FCFCFC;
+}
+
+#found-page4 {
+	margin-top: 20%;
+    font-size: 11rem;
+    text-align: center;
+    font-weight: 800;	
+    color: #2b2b2b;
 }
 
 
